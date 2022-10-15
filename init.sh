@@ -13,7 +13,7 @@ cd ports/rp2
 make
 cp build-PICO/firmware.elf ../../../
 cp build-PICO/firmware.uf2 ../../../
-cd ../../../
-mkdir mp-template
-cd mp-template
-touch main.py
+# cd ../../../
+# mkdir mp-template
+# cd mp-template
+# touch main.py
