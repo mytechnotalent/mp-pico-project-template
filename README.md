@@ -1,7 +1,7 @@
 ![image](https://github.com/mytechnotalent/mp-pico-project-template/blob/main/MicroPython%20PICO%20Project%20Template.png?raw=true)
 
-# MicroPython PICO Project Template
-MicroPython PICO project template.
+# MicroPython Pico Project Template
+MicroPython Pico project template.
 
 <br>
 
