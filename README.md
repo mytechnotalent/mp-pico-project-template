@@ -1,5 +1,5 @@
-# mp-template
-MicroPython project template.
+# mp-pico-project-template
+MicroPython PICO project template.
 
 <br>
 
