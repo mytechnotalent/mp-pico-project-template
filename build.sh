@@ -2,8 +2,9 @@
 
 . venv/bin/activate
 cd micropython
-git pull
-git submodule update
+git checkout master
+git pull origin master
+git submodule update --recursive --remote
 make clean -C ports/rp2 submodules 
 make -C ports/rp2 submodules
 make clean -C mpy-cross
