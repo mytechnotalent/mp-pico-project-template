@@ -26,4 +26,4 @@ set showmatch
 let python_highlight_all = 1
 
 " set colorscheme                                                                                                                                       
-colorscheme darkblue   
+colorscheme pablo   
