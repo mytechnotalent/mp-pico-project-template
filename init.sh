@@ -7,7 +7,7 @@ python3 -m venv venv
 pip install -r requirements.txt
 git submodule add https://github.com/micropython/micropython.git
 cd micropython
-git submodule update --init
+git submodule update --init --recursive 
 make -C ports/rp2 submodules
 make -C mpy-cross
 cd ports/rp2
