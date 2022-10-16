@@ -1,7 +1,7 @@
 #! /bin/bash
 
-sudo mkdir -p /media/kali/RPI-RP2
-sudo mount /dev/sdb1 /media/kali/RPI-RP2
-sudo cp firmware.uf2 /media/kali/RPI-RP2
-sudo umount /media/kali/RPI-RP2
-sudo rm -rf /media/kali/RPI-RP2
+sudo mkdir -p /mnt/pico
+sudo mount /dev/sda1 /mnt/pico
+sudo cp firmware.uf2 /mnt/pico
+sudo sync
+sudo umount /mnt/pico
