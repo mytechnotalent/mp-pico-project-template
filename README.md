@@ -9,7 +9,7 @@ MicroPython Pico project template.
 
 <br>
 
-### usage: Kali Linux VM
+### usage: Raspberry Pi 4 (32-bit)
 ```bash
 ./populate_repo.sh
 ```
