@@ -9,7 +9,7 @@ cp mp-template/.gitignore $folder_name
 cp mp-template/LICENSE $folder_name
 cp mp-template/.vimrc $folder_name
 cp mp-template/requirements.txt $folder_name
-cp mp-template/bare_flash.sh $folder_name
+cp mp-template/flash.sh $folder_name
 cp mp-template/build.sh $folder_name
 cp mp-template/copy_files_to_flash.sh $folder_name
 cp mp-template/init.sh $folder_name
