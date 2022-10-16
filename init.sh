@@ -1,5 +1,6 @@
 #!/bin/sh
 
+cp ~/.vimrc ~/.vimrc_bak > /dev/null 2>&1
 cp .vimrc ~/
 python3 -m venv venv
 . venv/bin/activate
