@@ -1,6 +1,5 @@
 #!/bin/sh
 
-rm -rf mp-template
 cd ..
 echo enter folder name:
 read folder_name
