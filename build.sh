@@ -11,5 +11,5 @@ make clean -C mpy-cross
 make -C mpy-cross
 cd ports/rp2
 make
-cp build-PICO/firmware.elf ../../../
-cp build-PICO/firmware.uf2 ../../../
+cp build-PICO/*.elf ../../../
+cp build-PICO/*.uf2 ../../../
