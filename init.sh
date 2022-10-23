@@ -7,14 +7,14 @@ python3 -m venv venv
 pip install -r requirements.txt
 git submodule add https://github.com/micropython/micropython.git
 cd micropython
-git submodule update --init --recursive 
+git submodule update --init 
 make -C ports/rp2 submodules
 make -C mpy-cross
 cd ports/rp2
 make
 cp build-PICO/firmware.elf ../../../
 cp build-PICO/firmware.uf2 ../../../
-# cd ../../../
-# mkdir mp-template
-# cd mp-template
-# touch main.py
+cd ../../../
+mkdir src
+cd src
+touch main.py
