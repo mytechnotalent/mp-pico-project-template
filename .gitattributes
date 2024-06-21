@@ -1,4 +1,12 @@
-*.sh linguist-language=Shell
+# mark all Python files as Python language
 *.py linguist-language=Python
+
+# mark all Shell scripts as Shell language but exclude them from language statistics
+*.sh linguist-language=Shell
 *.sh linguist-detect=false
-*.py linguist-detect=true
+
+# optionally, exclude other file types that might be influencing language statistics
+*.md linguist-detect=false
+*.txt linguist-detect=false
+*.yaml linguist-detect=false
+*.yml linguist-detect=false
