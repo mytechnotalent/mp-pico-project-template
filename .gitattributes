@@ -1,3 +1,4 @@
 *.sh linguist-language=Shell
 *.py linguist-language=Python
 *.sh linguist-detect=false
+*.py linguist-detect=true
