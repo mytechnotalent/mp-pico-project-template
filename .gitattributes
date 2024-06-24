@@ -4,8 +4,3 @@
 # mark all Shell scripts as Shell language but exclude them from language statistics
 *.sh linguist-language=Shell
 *.sh linguist-detect=false
-init.sh linguist-detect=false
-populate_repo.sh linguist-detect=false
-populate_submodules_on_clone.sh linguist-detect=false
-build.sh linguist-detect=false
-copy_files_to_flash.sh linguist-detect=false
