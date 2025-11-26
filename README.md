@@ -5,16 +5,16 @@ MicroPython Pico project template.
 
 <br>
 
-## Join DC540 Discord [HERE](https://discord.gg/TC9V9RCr5U)
+# Join DC540 Discord [HERE](https://discord.gg/TC9V9RCr5U)
 
 <br>
 
-### usage: Raspberry Pi 4 (32-bit)
+# usage: Raspberry Pi 4 (32-bit)
 ```bash
 ./populate_repo.sh
 ```
 
 <br>
 
-## License
+# License
 [MIT License](https://raw.githubusercontent.com/mytechnotalent/mp-template/main/LICENSE?token=GHSAT0AAAAAABZERIK6OSOUFEA76UNXVINYY2LDKCQ)
